@@ -1,0 +1,9 @@
+{
+  "name": "Arduino IDE Dev",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "features": {
+    "ghcr.io/devcontainers/features/rust:1": {},
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "postCreateCommand": "curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sh"
+}
