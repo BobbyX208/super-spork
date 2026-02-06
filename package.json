@@ -1,0 +1,17 @@
+{
+  "name": "super-spork",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "serve": "node server.js"
+  },
+  "keywords": [],
+  "author": "BobbyX208, GloxieDev",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
